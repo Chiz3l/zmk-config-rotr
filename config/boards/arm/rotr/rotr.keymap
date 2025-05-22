@@ -17,7 +17,7 @@
 		default_layer {
 			//PREV | PLAY/PAUSE | NEXT || Youtube Control
 			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
-			sensor-bindings = <&inc_dec_kp LT GT>;
+			sensor-bindings = <&inc_dec_kp DOT COMMA>;
 		};
 		one {
 			//PREV | PLAY/PAUSE | NEXT || Music Control
@@ -26,7 +26,7 @@
 		};
 		two {
 			//PREV | PLAY/PAUSE | NEXT || Web Search
-			bindings = <&kp LA(LEFT) &lt 4 C_PP &kp LA(RIGHT)>;
+			bindings = <&kp LA(LEFT) &lt 4 LC(R) &kp LA(RIGHT)>;
 			sensor-bindings = <&inc_dec_kp UP DOWN>;
 		};
 		three {
